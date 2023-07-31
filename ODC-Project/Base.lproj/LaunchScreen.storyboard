@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Bn1-kg-AQW">
+            <objects>
+                <viewController id="Uvx-cS-U0L" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kie-Hu-bm8">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash01" translatesAutoresizingMaskIntoConstraints="NO" id="vTI-K2-KbK">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="877"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fashions" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gqh-zf-Qng">
+                                <rect key="frame" x="102.00000000000001" y="403.66666666666669" width="189.33333333333337" height="69.666666666666686"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="55"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Life My Style" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o6K-os-Xyr">
+                                <rect key="frame" x="148" y="459" width="132.33333333333337" height="21.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PoA-dL-DtY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vTI-K2-KbK" firstAttribute="centerX" secondItem="PoA-dL-DtY" secondAttribute="centerX" id="2sr-db-qar"/>
+                            <constraint firstItem="vTI-K2-KbK" firstAttribute="leading" secondItem="Kie-Hu-bm8" secondAttribute="leading" id="93w-zX-X8h"/>
+                            <constraint firstItem="vTI-K2-KbK" firstAttribute="top" secondItem="Kie-Hu-bm8" secondAttribute="top" id="Id6-sk-XZ9"/>
+                            <constraint firstItem="Gqh-zf-Qng" firstAttribute="centerX" secondItem="PoA-dL-DtY" secondAttribute="centerX" id="K1Q-oQ-AN2"/>
+                            <constraint firstItem="o6K-os-Xyr" firstAttribute="top" secondItem="Gqh-zf-Qng" secondAttribute="bottom" multiplier="0.97" id="N5E-5S-gIP"/>
+                            <constraint firstItem="Gqh-zf-Qng" firstAttribute="centerY" secondItem="PoA-dL-DtY" secondAttribute="centerY" id="R4G-K9-uCo"/>
+                            <constraint firstItem="vTI-K2-KbK" firstAttribute="centerY" secondItem="PoA-dL-DtY" secondAttribute="centerY" id="TJO-ni-hUZ"/>
+                            <constraint firstItem="o6K-os-Xyr" firstAttribute="centerX" secondItem="Gqh-zf-Qng" secondAttribute="centerX" multiplier="1.09" id="dpZ-vb-ufV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zny-MS-hmG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1476" y="-35"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash01" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
